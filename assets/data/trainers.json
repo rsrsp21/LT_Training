@@ -1,0 +1,72 @@
+[
+  {
+    "trainerId": "T001",
+    "trainerName": "Anita Sharma",
+    "trainerExpertise": ["Soft Skills", "Leadership", "Communication"],
+    "domain": "People Development",
+    "trainerAvailability": true
+  },
+  {
+    "trainerId": "T002",
+    "trainerName": "Rohit Verma",
+    "trainerExpertise": ["Agile", "Scrum", "Project Management"],
+    "domain": "Engineering",
+    "trainerAvailability": true
+  },
+  {
+    "trainerId": "T003",
+    "trainerName": "Meera Nair",
+    "trainerExpertise": ["Cloud Architecture", "DevOps", "Kubernetes"],
+    "domain": "Engineering",
+    "trainerAvailability": false
+  },
+  {
+    "trainerId": "T004",
+    "trainerName": "Karan Gupta",
+    "trainerExpertise": ["Data Analysis", "Machine Learning", "Visualization"],
+    "domain": "Data & Analytics",
+    "trainerAvailability": true
+  },
+  {
+    "trainerId": "T005",
+    "trainerName": "Priya Menon",
+    "trainerExpertise": ["UI Design", "UX", "Figma"],
+    "domain": "Design",
+    "trainerAvailability": true
+  },
+  {
+    "trainerId": "T006",
+    "trainerName": "Arjun Reddy",
+    "trainerExpertise": ["Security", "Compliance", "Risk Management"],
+    "domain": "Information Security",
+    "trainerAvailability": false
+  },
+  {
+    "trainerId": "T007",
+    "trainerName": "Sneha Iyer",
+    "trainerExpertise": ["Public Speaking", "Leadership", "Team Communication"],
+    "domain": "People Development",
+    "trainerAvailability": true
+  },
+  {
+    "trainerId": "T008",
+    "trainerName": "Vikram Das",
+    "trainerExpertise": ["Cloud", "DevOps", "CI/CD"],
+    "domain": "Engineering",
+    "trainerAvailability": true
+  },
+  {
+    "trainerId": "T009",
+    "trainerName": "Neha Kapoor",
+    "trainerExpertise": ["Brand Design", "Adobe", "Product Design"],
+    "domain": "Design",
+    "trainerAvailability": true
+  },
+  {
+    "trainerId": "T010",
+    "trainerName": "Sanjay Pillai",
+    "trainerExpertise": ["Scrum", "Agile Coaching", "Team Leadership"],
+    "domain": "Engineering",
+    "trainerAvailability": false
+  }
+]
