@@ -1,70 +1,70 @@
 [
   {
     "trainerId": "T001",
-    "trainerName": "Anita Sharma",
+    "trainerName": "Kavyashree Chandranna",
     "trainerExpertise": ["Soft Skills", "Leadership", "Communication"],
     "domain": "People Development",
     "trainerAvailability": true
   },
   {
     "trainerId": "T002",
-    "trainerName": "Rohit Verma",
+    "trainerName": "Mayur Pai",
     "trainerExpertise": ["Agile", "Scrum", "Project Management"],
     "domain": "Engineering",
     "trainerAvailability": true
   },
   {
     "trainerId": "T003",
-    "trainerName": "Meera Nair",
+    "trainerName": "Narmadha Velusamy",
     "trainerExpertise": ["Cloud Architecture", "DevOps", "Kubernetes"],
     "domain": "Engineering",
     "trainerAvailability": false
   },
   {
     "trainerId": "T004",
-    "trainerName": "Karan Gupta",
+    "trainerName": "Vamsi Mygapu",
     "trainerExpertise": ["Data Analysis", "Machine Learning", "Visualization"],
     "domain": "Data & Analytics",
     "trainerAvailability": true
   },
   {
     "trainerId": "T005",
-    "trainerName": "Priya Menon",
+    "trainerName": "Maharaj",
     "trainerExpertise": ["UI Design", "UX", "Figma"],
     "domain": "Design",
     "trainerAvailability": true
   },
   {
     "trainerId": "T006",
-    "trainerName": "Arjun Reddy",
+    "trainerName": "Chandu",
     "trainerExpertise": ["Security", "Compliance", "Risk Management"],
     "domain": "Information Security",
     "trainerAvailability": false
   },
   {
     "trainerId": "T007",
-    "trainerName": "Sneha Iyer",
+    "trainerName": "Noel Leslie",
     "trainerExpertise": ["Public Speaking", "Leadership", "Team Communication"],
     "domain": "People Development",
     "trainerAvailability": true
   },
   {
     "trainerId": "T008",
-    "trainerName": "Vikram Das",
+    "trainerName": "Layavardhan",
     "trainerExpertise": ["Cloud", "DevOps", "CI/CD"],
     "domain": "Engineering",
     "trainerAvailability": true
   },
   {
     "trainerId": "T009",
-    "trainerName": "Neha Kapoor",
+    "trainerName": "Lavanya Boddepalli",
     "trainerExpertise": ["Brand Design", "Adobe", "Product Design"],
     "domain": "Design",
     "trainerAvailability": true
   },
   {
     "trainerId": "T010",
-    "trainerName": "Sanjay Pillai",
+    "trainerName": "Dhanush Sabbisetti",
     "trainerExpertise": ["Scrum", "Agile Coaching", "Team Leadership"],
     "domain": "Engineering",
     "trainerAvailability": false
