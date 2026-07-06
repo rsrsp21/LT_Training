@@ -45,24 +45,13 @@
         <label class="form-label" for="loginPassword">Password</label>
         <input class="form-input" type="password" id="loginPassword" placeholder="Enter your password" />
       </div>
+      <div class="sample-creds-text" id="sampleCreds">
+        <div id="sampleUsersList"></div>
+        <div id="sampleManagersList"></div>
+      </div>
 
       <button class="btn-primary" onclick="handleLogin()">Sign In</button>
       <div class="login-error" id="loginError">Invalid username or password. Please try again.</div>
-
-      <div class="sample-creds" id="sampleCreds">
-        <div class="sample-creds-title">Sample login credentials from JSON</div>
-        <div class="sample-creds-note">Use these accounts to try the portal quickly.</div>
-        <div class="sample-creds-grid">
-          <div class="sample-creds-group">
-            <div class="sample-creds-group-title">Users</div>
-            <div class="sample-creds-list" id="sampleUsersList"></div>
-          </div>
-          <div class="sample-creds-group">
-            <div class="sample-creds-group-title">Managers</div>
-            <div class="sample-creds-list" id="sampleManagersList"></div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 

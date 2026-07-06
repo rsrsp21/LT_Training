@@ -32,21 +32,8 @@ function renderSampleCredentials() {
   const users = USERS_DATA.filter((u) => u.role === "user").slice(0, 2);
   const managers = USERS_DATA.filter((u) => u.role === "manager").slice(0, 2);
 
-  const renderItems = (items) =>
-    items
-      .map(
-        (item) => `
-          <div class="sample-cred-item">
-            <span><strong>${item.username}</strong></span>
-            <span class="label">Password</span>
-            <span>${item.password}</span>
-          </div>
-        `,
-      )
-      .join("");
-
-  usersList.innerHTML = renderItems(users);
-  managersList.innerHTML = renderItems(managers);
+  usersList.innerHTML = `Users: ${users.map((item) => `<strong>${item.username}/${item.password}</strong>`).join(", ")}`;
+  managersList.innerHTML = `Managers: ${managers.map((item) => `<strong>${item.username}/${item.password}</strong>`).join(", ")}`;
 }
 
 function handleLogin() {
