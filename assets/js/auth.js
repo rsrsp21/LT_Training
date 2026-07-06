@@ -24,6 +24,31 @@ async function loadTrainersData() {
   }
 }
 
+function renderSampleCredentials() {
+  const usersList = getEl("sampleUsersList");
+  const managersList = getEl("sampleManagersList");
+  if (!usersList || !managersList || !Array.isArray(USERS_DATA)) return;
+
+  const users = USERS_DATA.filter((u) => u.role === "user").slice(0, 2);
+  const managers = USERS_DATA.filter((u) => u.role === "manager").slice(0, 2);
+
+  const renderItems = (items) =>
+    items
+      .map(
+        (item) => `
+          <div class="sample-cred-item">
+            <span><strong>${item.username}</strong></span>
+            <span class="label">Password</span>
+            <span>${item.password}</span>
+          </div>
+        `,
+      )
+      .join("");
+
+  usersList.innerHTML = renderItems(users);
+  managersList.innerHTML = renderItems(managers);
+}
+
 function handleLogin() {
   const unameEl = getEl("loginUsername");
   const passEl = getEl("loginPassword");

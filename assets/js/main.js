@@ -20,6 +20,8 @@ function initLoginPage() {
     sessionStorage.removeItem("lt_signed_out");
     showToast("Signed out successfully", "info");
   }
+
+  renderSampleCredentials();
 }
 
 function initUserPage() {

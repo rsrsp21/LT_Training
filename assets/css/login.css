@@ -110,6 +110,66 @@
   display: block;
 }
 
+.sample-creds {
+  margin-top: 16px;
+  border: 1px solid #5e6a73;
+  border-radius: 8px;
+  background: rgba(25, 43, 55, 0.55);
+  padding: 14px;
+}
+
+.sample-creds-title {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.sample-creds-note {
+  color: #babfc3;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.sample-creds-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.sample-creds-group-title {
+  color: #d1d5d7;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.sample-creds-list {
+  display: grid;
+  gap: 8px;
+}
+
+.sample-cred-item {
+  border: 1px solid #47555f;
+  border-radius: 6px;
+  background: #192b37;
+  padding: 8px 10px;
+}
+
+.sample-cred-item span {
+  display: block;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.sample-cred-item .label {
+  color: #8c959b;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 .public-footer {
   height: 60px;
   background: #192b37;
@@ -119,4 +179,10 @@
   align-items: center;
   justify-content: center;
   font-size: 12px;
+}
+
+@media (max-width: 640px) {
+  .sample-creds-grid {
+    grid-template-columns: 1fr;
+  }
 }
